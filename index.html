@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="left-side">
+
+      <div class="bill-group">
+        <label for="bill" class="bill-label">Bill</label>
+        <input
+          name="bill"
+          type="number"
+          class="bill-input"
+          placeholder="Enter bill amount"
+          min="0"
+        />
+      </div>
+      <div class="tip-group">
+        <label for="tip-btn" class="tip-btn-label">Select Tip%</label>
+        <div class="tip-btn">
+          <button type="button" data-tip="5" class="btn">5%</button>
+          <button type="button" data-tip="10" class="btn">10%</button>
+          <button type="button" data-tip="15" class="btn">15%</button>
+          <button type="button" data-tip="25" class="btn">25%</button>
+          <button type="button" data-tip="50" class="btn">50%</button>
+          <input
+            type="number"
+            name="custom-tip"
+            id="custom-tip"
+            placeholder="Enter Tip%"
+            class="input-tip"
+          />
+        </div>
+      </div>
+      <div class="people-group">
+        <label for="number-of-people">Number of People</label>
+        <input
+          type="number"
+          name="number-of-people"
+          class="number-of-people-input"
+        />
+        <img src="./icon/icon-person.svg" alt="" class="input-icon" />
+      </div>
+    </div>
+      <div class="result-container">
+        <div class="amount-group">
+          <div class="amount-text">
+            <p class="tip-amount-text">Tip Amount</p>
+            <p class="person-text">/person</p>
+          </div>
+          <span class="tip-per-person">$0.00</span>
+        </div>
+
+        <div class="total-group">
+          <div class="total-text-group">
+            <p class="total-text">Total</p>
+            <p class="person-text">/person</p>
+          </div>
+          <span class="total-per-person">$0.00</span>
+        </div>
+        <button type="button" class="button">RESET</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
