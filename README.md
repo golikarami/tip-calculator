@@ -33,4 +33,6 @@ CSS – responsive styling and layout
 
 🚀 How to Run:
 
-Clone the repository:
+
+
+Clone the repository:https://github.com/golikarami/tip-calculator.git
