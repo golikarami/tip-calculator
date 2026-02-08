@@ -1,8 +1,10 @@
-A responsive tip calculator built with React and JavaScript, designed to quickly calculate tips and total amounts based on bill value and tip percentage.
 
+# Tip-Calculator
+A responsive **tip calculator** built with React and JavaScript, designed to quickly calculate tips and total amounts based on bill value and tip percentage.
 
+---
 
-✨ Features:
+## ✨ Features:
 
 . Calculate tip amount and total bill
 
@@ -15,10 +17,10 @@ A responsive tip calculator built with React and JavaScript, designed to quickly
 . Clean and simple UI
 
 
+---
 
 
-
-🛠️ Built With:
+## 🛠️ Built With:
 
 
 React – component-based UI
@@ -28,11 +30,23 @@ JavaScript (ES6+) – application logic
 CSS – responsive styling and layout
 
 
+---
 
 
+## 🚀 How to Run:
 
-🚀 How to Run:
+---
 
+## Run
 
+1. Clone the project:
+```bash
+git clone <https://github.com/golikarami/tip-calculator.git>
+```
+2. Go into the project folder:
+```bash
+cd tip-calculator
 
-Clone the repository:https://github.com/golikarami/tip-calculator.git
+```
+Open index.html in your browser (double-click or right-click → Open with → Browser).
+
