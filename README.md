@@ -37,8 +37,6 @@ CSS – responsive styling and layout
 
 ---
 
-## Run
-
 1. Clone the project:
 ```bash
 git clone <https://github.com/golikarami/tip-calculator.git>
